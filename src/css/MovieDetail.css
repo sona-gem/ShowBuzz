@@ -1,0 +1,56 @@
+/* MovieDetail.css */
+
+.movie-detail {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid red;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+.movie-detail h1 {
+  font-size: 2.5rem;
+  color: red;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.movie-detail img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 2px solid red;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.movie-detail p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 10px 0;
+  color: white;
+}
+
+.movie-detail p strong {
+  color: red;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 16px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #cc0000;
+}
